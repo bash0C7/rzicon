@@ -100,6 +100,8 @@ module Nizicon
       def birthday; '1998.01.30'; end
       def hometown; '千葉県'; end
       def twitter_id; '@nakamura_akari'; end
+
+      alias_method :to_s, :nickname
     end
 
     class NishiNanami
