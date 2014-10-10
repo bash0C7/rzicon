@@ -7,10 +7,10 @@ Inspired by [Acme::2zicon](https://metacpan.org/source/CATATSUY/Acme-2zicon-0.1/
 ## Usage
 
 ```ruby
-Nizocon.name
+Nizicon.name
 #=> "虹のコンキスタドール"
 
-Nizocon.from
+Nizicon.from
 #=> "つくドル！プロジェクト"
 
 Nizicon.members.each{|m| puts m.name}
@@ -41,5 +41,3 @@ Nizicon.members.each{|m| puts m.name}
 ### Version 0.0.0
 
 first version
-
-
