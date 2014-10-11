@@ -47,6 +47,14 @@ module Nizicon
       def birthday; Date.new 1997, 12, 17; end
       def hometown; '山口県'; end
       def twitter_id; '@nagata_minari'; end
+      def introduction
+        [
+            "今日はみなりんマジックでみんなを笑顔にしちゃるけん。",
+            "#{hometown}出身の#{age}歳。頼れる#{position}。",
+            "＼えーっ！／",
+            "アイドルがぶち大好きな#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -61,18 +69,34 @@ module Nizicon
       def birthday; Date.new 1996, 5, 20; end
       def hometown; '福岡県'; end
       def twitter_id; '@shigematsu_yuka'; end
+      def introduction
+        [
+            "博多からきたダイヤモンドの原石。みーんなの愛で輝かせてほしいと。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
 
     class OkumuraNonoka
       include Singleton
+      include Util
 
       def name; '奥村 野乃花'; end
       def nickname; 'ののた'; end
       def birthday; Date.new 2001, 1, 4; end
       def hometown; '東京都'; end
       def twitter_id; '@okumura_nonoka'; end
+      def introduction
+        [
+            "アイドルオタクの進化系。毎日がビッグバン。せーの！",
+            " ＼どーん／",
+            "#{hometown}出身の最年少#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -86,18 +110,33 @@ module Nizicon
       def birthday; Date.new 1997, 12, 9; end
       def hometown; '東京都'; end
       def twitter_id; '@kinosita_hiyori'; end
+      def introduction
+        [
+            "あなたのハートをチューニング。恋のスリーコードを奏でます。",
+            "#{hometown}出身#{age}歳。",
+            "#{name}です。#{nickname}って呼んでください。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
 
     class SuyamaEmiri
       include Singleton
+      include Util
 
       def name; '陶山 恵実里'; end
       def nickname; 'えみりぃ'; end
       def birthday; Date.new 1999, 5, 26; end
       def hometown; '東京都'; end
       def twitter_id; '@suyama_emiri'; end
+      def introduction
+        [
+            "どこまでいってもマイペースなアイドルルーキー。あなたの新人王を狙います。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -111,6 +150,14 @@ module Nizicon
       def birthday; Date.new 1998, 1, 30; end
       def hometown; '千葉県'; end
       def twitter_id; '@nakamura_akari'; end
+      def introduction
+        [
+            "＼りんりんりーんあかりんりーん／",
+            "みーんなの笑顔の隣にいたい。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -124,6 +171,13 @@ module Nizicon
       def birthday; Date.new 1996, 10, 9; end
       def hometown; '東京都'; end
       def twitter_id; '@nishi_nanami'; end
+      def introduction
+        [
+            "わたしはあまーいチョコレート。あなたの熱気で溶けちゃうの。",
+            "虹コン色黒担当、#{hometown}出身#{age}歳",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -138,6 +192,14 @@ module Nizicon
       def hometown; '茨城県'; end
       def twitter_id; '@nemoto_nagi'; end
       def pixiv_id; 'ID 11797412'; end
+      def introduction
+        [
+            "みんなのハートを#{nickname}色に染めちゃってもよかっぺか？",
+            "＼ぺー！／",
+            "#{hometown}出身世間知らずの#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -151,6 +213,13 @@ module Nizicon
       def birthday; Date.new 2000, 12, 30; end
       def hometown; '埼玉県'; end
       def twitter_id; '@matoba_karin'; end
+      def introduction
+        [
+            "#{hometown}からやってきた最年少の#{age}歳。#{nickname}ってよんでもいいよ。",
+            "＼#{nickname}ー！／",
+            "ダンスと梅干しが大好きな#{name}です。",
+        ]
+      end
 
       alias_method :to_s, :nickname
     end
@@ -164,6 +233,13 @@ module Nizicon
       def birthday; Date.new 1999, 8, 2; end
       def hometown; '神奈川県'; end
       def twitter_id; '@yoshimura_nana'; end
+      def introduction
+        [
+            "あの空に浮かぶ虹のように、みなさんになないろをお届けします。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
+        ]
+      end
 
       def to_s
         'ハム'
