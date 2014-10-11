@@ -47,7 +47,7 @@ module Nizicon
       include Singleton
 
       def position; '副委員長'; end
-      def name; '重松 佑佳 '; end
+      def name; '重松 佑佳'; end
       def nickname; 'しげちー'; end
       def birthday; '1996.05.20'; end
       def hometown; '福岡県'; end
@@ -59,7 +59,7 @@ module Nizicon
     class OkumuraNonoka
       include Singleton
 
-      def name; '奥村 野乃花 '; end
+      def name; '奥村 野乃花'; end
       def nickname; 'ののた'; end
       def birthday; '2001.01.04'; end
       def hometown; '東京都'; end
@@ -71,7 +71,7 @@ module Nizicon
     class KinoshitaHiyori
       include Singleton
 
-      def name; '木下 ひより '; end
+      def name; '木下 ひより'; end
       def nickname; 'ひよりん'; end
       def birthday; '1997.12.09'; end
       def hometown; '東京都'; end
@@ -83,7 +83,7 @@ module Nizicon
     class SuyamaEmiri
       include Singleton
 
-      def name; '陶山 恵実里 '; end
+      def name; '陶山 恵実里'; end
       def nickname; 'えみりぃ'; end
       def birthday; '1999.05.26'; end
       def hometown; '東京都'; end
@@ -95,17 +95,19 @@ module Nizicon
     class NakamuraAkari
       include Singleton
 
-      def name; '中村 朱里 '; end
+      def name; '中村 朱里'; end
       def nickname; 'あかりん'; end
       def birthday; '1998.01.30'; end
       def hometown; '千葉県'; end
       def twitter_id; '@nakamura_akari'; end
+
+      alias_method :to_s, :nickname
     end
 
     class NishiNanami
       include Singleton
 
-      def name; '西 七海 '; end
+      def name; '西 七海'; end
       def nickname; 'ななぴ'; end
       def birthday; '1996.10.09'; end
       def hometown; '東京都'; end
@@ -117,7 +119,7 @@ module Nizicon
     class NemotoNagi
       include Singleton
 
-      def name; '根本 凪 '; end
+      def name; '根本 凪'; end
       def nickname; 'ねも'; end
       def birthday; '1999.03.15'; end
       def hometown; '茨城県'; end
@@ -130,7 +132,7 @@ module Nizicon
     class MatobaKarin
       include Singleton
 
-      def name; '的場 華鈴 '; end
+      def name; '的場 華鈴'; end
       def nickname; 'かりん、かりんさま'; end
       def birthday; '2000.12.30'; end
       def hometown; '埼玉県'; end
@@ -142,7 +144,7 @@ module Nizicon
     class YoshimuraNana
       include Singleton
 
-      def name; '吉村 菜々 '; end
+      def name; '吉村 菜々'; end
       def nickname; 'なぁな'; end
       def birthday; '1999.08.02'; end
       def hometown; '神奈川県'; end
@@ -154,4 +156,3 @@ module Nizicon
     end
   end
 end
-
