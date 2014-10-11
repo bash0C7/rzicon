@@ -10,12 +10,8 @@ describe Nizicon do
       expect(Nizicon.name).to eq('虹のコンキスタドール')
     end
 
-    it 'from' do
-      expect(Nizicon.from).to eq('つくドル！プロジェクト')
-    end
-
-    it 'members' do
-      expect(Nizicon.members.size).to eq(10)
+    it 'to_s' do
+      expect(Nizicon.to_s).to eq(Nizicon.name)
     end
   end
 end
