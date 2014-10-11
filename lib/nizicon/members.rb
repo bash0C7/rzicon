@@ -1,5 +1,6 @@
 module Nizicon
   require "singleton"
+  require 'date'
 
   class Members
     include Singleton
@@ -36,7 +37,7 @@ module Nizicon
       def position; '委員長'; end
       def name; '長田 美成'; end
       def nickname; 'みなりん'; end
-      def birthday; '1997.12.17'; end
+      def birthday; Date.new 1997, 12, 17; end
       def hometown; '山口県'; end
       def twitter_id; '@nagata_minari'; end
 
@@ -49,7 +50,7 @@ module Nizicon
       def position; '副委員長'; end
       def name; '重松 佑佳'; end
       def nickname; 'しげちー'; end
-      def birthday; '1996.05.20'; end
+      def birthday; Date.new 1996, 5, 20; end
       def hometown; '福岡県'; end
       def twitter_id; '@shigematsu_yuka'; end
 
@@ -61,7 +62,7 @@ module Nizicon
 
       def name; '奥村 野乃花'; end
       def nickname; 'ののた'; end
-      def birthday; '2001.01.04'; end
+      def birthday; Date.new 2001, 1, 4; end
       def hometown; '東京都'; end
       def twitter_id; '@okumura_nonoka'; end
 
@@ -73,7 +74,7 @@ module Nizicon
 
       def name; '木下 ひより'; end
       def nickname; 'ひよりん'; end
-      def birthday; '1997.12.09'; end
+      def birthday; Date.new 1997, 12, 9; end
       def hometown; '東京都'; end
       def twitter_id; '@kinosita_hiyori'; end
 
@@ -85,7 +86,7 @@ module Nizicon
 
       def name; '陶山 恵実里'; end
       def nickname; 'えみりぃ'; end
-      def birthday; '1999.05.26'; end
+      def birthday; Date.new 1999, 5, 26; end
       def hometown; '東京都'; end
       def twitter_id; '@suyama_emiri'; end
 
@@ -97,7 +98,7 @@ module Nizicon
 
       def name; '中村 朱里'; end
       def nickname; 'あかりん'; end
-      def birthday; '1998.01.30'; end
+      def birthday; Date.new 1998, 1, 30; end
       def hometown; '千葉県'; end
       def twitter_id; '@nakamura_akari'; end
 
@@ -109,7 +110,7 @@ module Nizicon
 
       def name; '西 七海'; end
       def nickname; 'ななぴ'; end
-      def birthday; '1996.10.09'; end
+      def birthday; Date.new 1996, 10, 9; end
       def hometown; '東京都'; end
       def twitter_id; '@nishi_nanami'; end
 
@@ -121,7 +122,7 @@ module Nizicon
 
       def name; '根本 凪'; end
       def nickname; 'ねも'; end
-      def birthday; '1999.03.15'; end
+      def birthday; Date.new 1999, 3, 15; end
       def hometown; '茨城県'; end
       def twitter_id; '@nemoto_nagi'; end
       def pixiv_id; 'ID 11797412'; end
@@ -134,7 +135,7 @@ module Nizicon
 
       def name; '的場 華鈴'; end
       def nickname; 'かりん、かりんさま'; end
-      def birthday; '2000.12.30'; end
+      def birthday; Date.new 2000, 12, 30; end
       def hometown; '埼玉県'; end
       def twitter_id; '@matoba_karin'; end
 
@@ -146,7 +147,7 @@ module Nizicon
 
       def name; '吉村 菜々'; end
       def nickname; 'なぁな'; end
-      def birthday; '1999.08.02'; end
+      def birthday; Date.new 1999, 8, 2; end
       def hometown; '神奈川県'; end
       def twitter_id; '@yoshimura_nana'; end
 
