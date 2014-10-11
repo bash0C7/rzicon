@@ -6,6 +6,12 @@ module Nizicon
     include Singleton
     include Enumerable
 
+    module Util
+      def age current_date = Date.today
+        current_date.year - birthday.year - (current_date.yday < birthday.yday ? 1 : 0)
+      end
+    end
+
     def all
       [
           NagataMinari.instance,
@@ -33,6 +39,7 @@ module Nizicon
 
     class NagataMinari
       include Singleton
+      include Util
 
       def position; '委員長'; end
       def name; '長田 美成'; end
@@ -46,6 +53,7 @@ module Nizicon
 
     class ShigematsuYuka
       include Singleton
+      include Util
 
       def position; '副委員長'; end
       def name; '重松 佑佳'; end
@@ -71,6 +79,7 @@ module Nizicon
 
     class KinoshitaHiyori
       include Singleton
+      include Util
 
       def name; '木下 ひより'; end
       def nickname; 'ひよりん'; end
@@ -95,6 +104,7 @@ module Nizicon
 
     class NakamuraAkari
       include Singleton
+      include Util
 
       def name; '中村 朱里'; end
       def nickname; 'あかりん'; end
@@ -107,6 +117,7 @@ module Nizicon
 
     class NishiNanami
       include Singleton
+      include Util
 
       def name; '西 七海'; end
       def nickname; 'ななぴ'; end
@@ -119,6 +130,7 @@ module Nizicon
 
     class NemotoNagi
       include Singleton
+      include Util
 
       def name; '根本 凪'; end
       def nickname; 'ねも'; end
@@ -132,6 +144,7 @@ module Nizicon
 
     class MatobaKarin
       include Singleton
+      include Util
 
       def name; '的場 華鈴'; end
       def nickname; 'かりんさま'; end
@@ -144,6 +157,7 @@ module Nizicon
 
     class YoshimuraNana
       include Singleton
+      include Util
 
       def name; '吉村 菜々'; end
       def nickname; 'なぁな'; end
