@@ -13,6 +13,18 @@ Nizicon.name
 Nizicon.from
 #=> "つくドル！プロジェクト"
 
+Nizicon.members.all
+#=> [#<Nizicon::Members::NagataMinari:0x00000000000000>,
+ #<Nizicon::Members::ShigematsuYuka:0x00000000000000>,
+ #<Nizicon::Members::OkumuraNonoka:0x00000000000000>,
+ #<Nizicon::Members::KinoshitaHiyori:0x00000000000000>,
+ #<Nizicon::Members::SuyamaEmiri:0x00000000000000>,
+ #<Nizicon::Members::NakamuraAkari:0x00000000000000>,
+ #<Nizicon::Members::NishiNanami:0x00000000000000>,
+ #<Nizicon::Members::NemotoNagi:0x00000000000000>,
+ #<Nizicon::Members::MatobaKarin:0x00000000000000>,
+ #<Nizicon::Members::YoshimuraNana:0x00000000000000>]
+
 Nizicon.members.each{|m| puts m.name}
 長田 美成
 重松 佑佳
@@ -24,19 +36,16 @@ Nizicon.members.each{|m| puts m.name}
 根本 凪
 的場 華鈴
 吉村 菜々
-=> [#<Nizicon::Members::NagataMinari:0x00000000000000>,
- #<Nizicon::Members::ShigematsuYuka:0x00000000000000>,
- #<Nizicon::Members::OkumuraNonoka:0x00000000000000>,
- #<Nizicon::Members::KinoshitaHiyori:0x00000000000000>,
- #<Nizicon::Members::SuyamaEmiri:0x00000000000000>,
- #<Nizicon::Members::NakamuraAkari:0x00000000000000>,
- #<Nizicon::Members::NishiNanami:0x00000000000000>,
- #<Nizicon::Members::NemotoNagi:0x00000000000000>,
- #<Nizicon::Members::MatobaKarin:0x00000000000000>,
- #<Nizicon::Members::YoshimuraNana:0x00000000000000>]
 ```
 
+more member information: https://github.com/bash0C7/rzicon/blob/master/lib/nizicon/members.rb
+
 ## Change Log
+
+### Version 0.0.1
+
+Fix some issues.
+Impl some features.
 
 ### Version 0.0.0
 
