@@ -1,6 +1,7 @@
 module Nizicon
   require "singleton"
   require 'date'
+  require 'uri'
 
   class Members
     include Singleton
@@ -55,6 +56,9 @@ module Nizicon
             "アイドルがぶち大好きな#{nickname}こと#{name}です。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290600.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -75,6 +79,9 @@ module Nizicon
             "#{hometown}出身の#{age}歳。",
             "#{nickname}こと#{name}です。",
         ]
+      end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290705.html")
       end
 
       alias_method :to_s, :nickname
@@ -97,6 +104,9 @@ module Nizicon
             "#{nickname}こと#{name}です。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290716.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -117,6 +127,9 @@ module Nizicon
             "#{name}です。#{nickname}って呼んでください。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290721.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -136,6 +149,9 @@ module Nizicon
             "#{hometown}出身の#{age}歳。",
             "#{nickname}こと#{name}です。",
         ]
+      end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290724.html")
       end
 
       alias_method :to_s, :nickname
@@ -158,6 +174,9 @@ module Nizicon
             "#{nickname}こと#{name}です。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290728.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -178,6 +197,9 @@ module Nizicon
             "#{nickname}こと#{name}です。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290730.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -191,7 +213,7 @@ module Nizicon
       def birthday; Date.new 1999, 3, 15; end
       def hometown; '茨城県'; end
       def twitter_id; '@nemoto_nagi'; end
-      def pixiv_id; 'ID 11797412'; end
+      def pixiv_id; '11797412'; end
       def introduction
         [
             "みんなのハートを#{nickname}色に染めちゃってもよかっぺか？",
@@ -199,6 +221,9 @@ module Nizicon
             "#{hometown}出身世間知らずの#{age}歳。",
             "#{nickname}こと#{name}です。",
         ]
+      end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290733.html")
       end
 
       alias_method :to_s, :nickname
@@ -220,6 +245,9 @@ module Nizicon
             "ダンスと梅干しが大好きな#{name}です。",
         ]
       end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290734.html")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -239,6 +267,9 @@ module Nizicon
             "#{hometown}出身の#{age}歳。",
             "#{nickname}こと#{name}です。",
         ]
+      end
+      def blog_uri
+        URI.parse("http://ameblo.jp/2zicon/theme-10083290737.html")
       end
 
       def to_s
