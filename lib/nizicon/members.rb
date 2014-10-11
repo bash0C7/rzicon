@@ -134,7 +134,7 @@ module Nizicon
       include Singleton
 
       def name; '的場 華鈴'; end
-      def nickname; 'かりん、かりんさま'; end
+      def nickname; 'かりんさま'; end
       def birthday; Date.new 2000, 12, 30; end
       def hometown; '埼玉県'; end
       def twitter_id; '@matoba_karin'; end
