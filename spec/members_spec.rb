@@ -13,6 +13,12 @@ describe Nizicon::Members do
     expect(described_class.instance.all.each).not_to be_nil
   end
 
+  describe described_class.instance.all.sample.class do
+    it 'to_hash' do
+      expect(described_class.instance.to_hash.class).to eq(Hash)
+    end
+  end
+
   describe described_class::NagataMinari do
     it 'birthday' do
       expect(described_class.instance.birthday.to_s).to eq('1997-12-17')

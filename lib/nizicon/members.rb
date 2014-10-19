@@ -2,6 +2,7 @@ module Nizicon
   require "singleton"
   require 'date'
   require 'uri'
+  require 'json'
 
   class Members
     include Singleton
@@ -10,6 +11,15 @@ module Nizicon
     module Util
       def age current_date = Date.today
         current_date.year - birthday.year - (current_date.yday < birthday.yday ? 1 : 0)
+      end
+
+      def to_hash
+        public_methods(false).inject({}) do |h, m|
+          h[m] = public_send(m)
+
+          h
+        end
+
       end
     end
 
