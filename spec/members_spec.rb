@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe Nizicon::Members do
   it do
-    expect(described_class.instance.size).to eq(10)
+    expect(described_class.instance.size).to eq(11)
   end
 
   it do
-    expect(described_class.instance.all.size).to eq(10)
+    expect(described_class.instance.all.size).to eq(11)
   end
 
   it do
@@ -92,6 +92,12 @@ describe Nizicon::Members do
 
     it do
       expect(described_class.instance.to_s).not_to eq(described_class.instance.nickname)
+    end
+  end
+
+  describe described_class::TsurumiMoe do
+    it 'birthday' do
+      expect(described_class.instance.birthday.to_s).to eq('1996-12-05')
     end
   end
 end

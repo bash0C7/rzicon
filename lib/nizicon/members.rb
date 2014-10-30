@@ -35,6 +35,7 @@ module Nizicon
           NemotoNagi.instance,
           MatobaKarin.instance,
           YoshimuraNana.instance,
+          TsurumiMoe.instance,
       ]
     end
 
@@ -285,6 +286,26 @@ module Nizicon
       def to_s
         'ハム'
       end
+    end
+
+    class TsurumiMoe
+      include Singleton
+      include Util
+
+      def name; '鶴見 萌'; end
+      def nickname; 'もえ'; end
+      def birthday; Date.new 1996, 12, 5; end
+      def hometown; '東京都'; end
+      def twitter_id; '@tsurumi_moe'; end
+      def introduction
+        [
+        ]
+      end
+      def blog_uri
+        nil
+      end
+
+      alias_method :to_s, :nickname
     end
   end
 end

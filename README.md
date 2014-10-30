@@ -23,16 +23,17 @@ Nizicon.members.all
  #<Nizicon::Members::NishiNanami:0x00000000000000>,
  #<Nizicon::Members::NemotoNagi:0x00000000000000>,
  #<Nizicon::Members::MatobaKarin:0x00000000000000>,
- #<Nizicon::Members::YoshimuraNana:0x00000000000000>]
+ #<Nizicon::Members::YoshimuraNana:0x00000000000000>,
+ #<Nizicon::Members::TsurumiMoe:0x00000000000000>,]
 
 Nizicon.members.map(&:name)
-#=> ["長田 美成", "重松 佑佳", "奥村 野乃花", "木下 ひより", "陶山 恵実里", "中村 朱里", "西 七海", "根本 凪", "的場 華鈴", "吉村 菜々"]
+#=> ["長田 美成", "重松 佑佳", "奥村 野乃花", "木下 ひより", "陶山 恵実里", "中村 朱里", "西 七海", "根本 凪", "的場 華鈴", "吉村 菜々", "鶴見 萌"]
 
 Nizicon.members.map(&:nickname)
-#=> ["みなりん", "しげちー", "ののた", "ひよりん", "えみりぃ", "あかりん", "ななぴ", "ねも", "かりんさま", "なぁな"]
+#=> ["みなりん", "しげちー", "ののた", "ひよりん", "えみりぃ", "あかりん", "ななぴ", "ねも", "かりんさま", "なぁな", "もえ"]
 
 Nizicon.members.map(&:to_s)
-#=> ["みなりん", "しげちー", "ののた", "ひよりん", "えみりぃ", "あかりん", "ななぴ", "ねも", "かりんさま", "ハム"]
+#=> ["みなりん", "しげちー", "ののた", "ひよりん", "えみりぃ", "あかりん", "ななぴ", "ねも", "かりんさま", "ハム", "もえ"]
 
 Nizicon.members.all.sample.to_hash
 #=> {:name=>"根本 凪",
@@ -49,6 +50,10 @@ Nizicon.members.all.sample.to_hash
 more member information: https://github.com/bash0C7/rzicon/blob/master/lib/nizicon/members.rb
 
 ## Change Log
+
+### Version 0.0.3
+
+Join Tsurumi Moe
 
 ### Version 0.0.2
 
