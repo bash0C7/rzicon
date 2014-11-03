@@ -51,6 +51,10 @@ more member information: https://github.com/bash0C7/rzicon/blob/master/lib/nizic
 
 ## Change Log
 
+### Version 0.0.4
+
+Add Tsurumi Moe introduction
+
 ### Version 0.0.3
 
 Join Tsurumi Moe
