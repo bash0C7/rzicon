@@ -299,6 +299,11 @@ module Nizicon
       def twitter_id; '@tsurumi_moe'; end
       def introduction
         [
+            "世界に萌えを発信！",
+            "＼受信！／",
+            "#{hometown}出身#{age}歳。",
+            "髪の毛ふわふわ天然ガール。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
