@@ -43,13 +43,18 @@ Nizicon.members.all.sample.to_hash
  :twitter_id=>"@nemoto_nagi",
  :pixiv_id=>"11797412",
  :introduction=>["みんなのハートをねも色に染めちゃってもよかっぺか？", "＼ぺー！／", "茨城県出身世間知らずの15歳。", "ねもこと根本 凪です。"],
- :blog_uri=>#<URI::HTTP:0x007fc1198fbd58 URL:http://ameblo.jp/2zicon/theme-10083290733.html>,
+ :blog_uri=>#<URI::HTTP:0x00000000000000 URL:http://ameblo.jp/2zicon/theme-10083290733.html>,
+ :head_shot_uri=>#<URI::HTTP:0x00000000000000 URL:http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nemoto-600x620.jpg>,
  :to_s=>"ねも"}
 ```
 
 more member information: https://github.com/bash0C7/rzicon/blob/master/lib/nizicon/members.rb
 
 ## Change Log
+
+### Version 0.0.5
+
+Add member head shot uri
 
 ### Version 0.0.4
 
