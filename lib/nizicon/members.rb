@@ -19,7 +19,6 @@ module Nizicon
 
           h
         end
-
       end
     end
 
@@ -70,6 +69,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290600.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nagata-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -93,6 +95,9 @@ module Nizicon
       end
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290705.html")
+      end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/shigematsu-600x620.jpg")
       end
 
       alias_method :to_s, :nickname
@@ -118,6 +123,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290716.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/okumura-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -141,6 +149,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290721.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/kinoshita-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -163,6 +174,9 @@ module Nizicon
       end
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290724.html")
+      end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/suyama-600x620.jpg")
       end
 
       alias_method :to_s, :nickname
@@ -188,6 +202,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290728.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nakamura-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -210,6 +227,9 @@ module Nizicon
       end
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290730.html")
+      end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nishi-600x620.jpg")
       end
 
       alias_method :to_s, :nickname
@@ -236,6 +256,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290733.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nemoto-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -259,6 +282,9 @@ module Nizicon
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290734.html")
       end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/matoba-600x620.jpg")
+      end
 
       alias_method :to_s, :nickname
     end
@@ -281,6 +307,9 @@ module Nizicon
       end
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10083290737.html")
+      end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/yoshimura-600x620.jpg")
       end
 
       def to_s
@@ -308,6 +337,9 @@ module Nizicon
       end
       def blog_uri
         URI.parse("http://ameblo.jp/2zicon/theme-10085711755.html")
+      end
+      def head_shot_uri
+        URI.parse("http://pixiv-pro.com/2zicon/wp-content/uploads/2014/09/tsurumi-600x620.jpg")
       end
 
       alias_method :to_s, :nickname

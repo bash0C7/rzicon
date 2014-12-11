@@ -17,6 +17,9 @@ describe Nizicon::Members do
     it 'to_hash' do
       expect(described_class.instance.to_hash.class).to eq(Hash)
     end
+    it 'head_shot_uri' do
+      expect(described_class.instance.head_shot_uri.class).to eq(URI::HTTP)
+    end
   end
 
   describe described_class::NagataMinari do
