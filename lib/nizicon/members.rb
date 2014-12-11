@@ -307,7 +307,7 @@ module Nizicon
         ]
       end
       def blog_uri
-        nil
+        URI.parse("http://ameblo.jp/2zicon/theme-10085711755.html")
       end
 
       alias_method :to_s, :nickname
