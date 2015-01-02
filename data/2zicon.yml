@@ -1,0 +1,150 @@
+core:
+  name: 虹のコンキスタドール
+  twitter_id: '@2zicon'
+  from: つくドル！プロジェクト
+  blog_uri: http://ameblo.jp/2zicon/
+  website_uri: http://pixiv-pro.com/2zicon/
+  showroom_uri: https://www.showroom-live.com/2zicon
+
+members:
+  1:
+    name: 長田 美成
+    position: 委員長
+    nickname: みなりん
+    birthday: 1997-12-17
+    hometown: 山口県
+    twitter_id: '@nagata_minari'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290600.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nagata-600x620.jpg
+    introduction: |-
+      今日はみなりんマジックでみんなを笑顔にしちゃるけん。
+      %{hometown}出身の%{age}歳。頼れる%{position}。
+      ＼えーっ！／
+      アイドルがぶち大好きな%{nickname}こと%{name}です。
+  2:
+    name: 重松 佑佳
+    position: 副委員長
+    nickname: しげちー
+    birthday: 1996-5-20
+    hometown: 福岡県
+    twitter_id: '@shigematsu_yuka'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290705.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/shigematsu-600x620.jpg
+    introduction: |-
+      博多からきたダイヤモンドの原石。みーんなの愛で輝かせてほしいと。
+      %{hometown}出身の%{age}歳。
+      %{nickname}こと%{name}です。
+  3:
+    name: 奥村 野乃花
+    nickname: ののた
+    birthday: 2001-1-4
+    hometown: 東京都
+    twitter_id: '@okumura_nonoka'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290716.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/okumura-600x620.jpg
+    introduction: |-
+      アイドルオタクの進化系。毎日がビッグバン。せーの！
+       ＼どーん／
+      %{hometown}出身の最年少%{age}歳。
+      %{nickname}こと%{name}です。
+  4:
+    name: 木下 ひより
+    nickname: ひよりん
+    birthday: 1997-12-9
+    hometown: 東京都
+    twitter_id: '@kinosita_hiyori'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290721.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/kinoshita-600x620.jpg
+    introduction: |-
+      あなたのハートをチューニング。恋のスリーコードを奏でます。
+      %{hometown}出身%{age}歳。
+      %{name}です。%{nickname}って呼んでください。
+  5:
+    name: 陶山 恵実里
+    nickname: えみりぃ
+    birthday: 1999-5-26
+    hometown: 東京都
+    twitter_id: '@suyama_emiri'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290724.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/suyama-600x620.jpg
+    introduction: |-
+      どこまでいってもマイペースなアイドルルーキー。あなたの新人王を狙います。
+      %{hometown}出身の%{age}歳。
+      %{nickname}こと%{name}です。
+  6:
+    name: 中村 朱里
+    nickname: あかりん
+    birthday: 1998-1-30
+    hometown: 千葉県
+    twitter_id: '@nakamura_akari'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290728.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nakamura-600x620.jpg
+    introduction: |-
+      ＼りんりんりーんあかりんりーん／
+      みーんなの笑顔の隣にいたい。
+      %{hometown}出身の%{age}歳。
+      %{nickname}こと%{name}です。
+  7:
+    name: 西 七海
+    nickname: ななぴ
+    birthday: 1996-10-9
+    hometown: 東京都
+    twitter_id: '@nishi_nanami'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290730.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nishi-600x620.jpg
+    introduction: |-
+      わたしはあまーいチョコレート。あなたの熱気で溶けちゃうの。
+      虹コン色黒担当、%{hometown}出身%{age}歳
+      %{nickname}こと%{name}です。
+  8:
+    name: 根本 凪
+    nickname: ねも
+    birthday: 1999-3-15
+    hometown: 茨城県
+    twitter_id: '@nemoto_nagi'
+    pixiv_id: 11797412
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290733.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/nemoto-600x620.jpg
+    introduction: |-
+      みんなのハートを#{nickname}色に染めちゃってもよかっぺか？
+      ＼ぺー！／
+      %{hometown}出身世間知らずの%{age}歳。
+      %{nickname}こと%{name}です。
+  9:
+    name: 的場 華鈴
+    nickname: かりんさま
+    birthday: 2000-12-30
+    hometown: 埼玉県
+    twitter_id: '@matoba_karin'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290734.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/matoba-600x620.jpg
+    introduction: |-
+      %{hometown}からやってきた最年少の%{age}歳。%{nickname}ってよんでもいいよ。
+      ＼%{nickname}ー！／
+      ダンスと梅干しが大好きな%{name}です。
+  10:
+    name: 吉村 菜々
+    nickname: なぁな
+    birthday: 1999-8-2
+    hometown: 神奈川県
+    twitter_id: '@yoshimura_nana'
+    blog_uri: http://ameblo.jp/2zicon/theme-10083290737.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/07/yoshimura-600x620.jpg
+    introduction: |-
+      あの空に浮かぶ虹のように、みなさんになないろをお届けします。
+      %{hometown}出身の%{age}歳。
+      %{nickname}こと%{name}です。
+  11:
+    name: 鶴見 萌
+    nickname: もえ
+    birthday: 1996-12-5
+    hometown: 東京都
+    twitter_id: '@tsurumi_moe'
+    blog_uri: http://ameblo.jp/2zicon/theme-10085711755.html
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/uploads/2014/09/tsurumi-600x620.jpg
+    introduction: |-
+      世界に萌えを発信！
+      ＼受信！／
+      %{hometown}出身%{age}歳。
+      髪の毛ふわふわ天然ガール。
+      %{nickname}こと%{name}です。
