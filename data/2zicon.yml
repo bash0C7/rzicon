@@ -7,7 +7,7 @@ core:
   showroom_uri: https://www.showroom-live.com/2zicon
 
 members:
-  1:
+  - id: 1
     name: 長田 美成
     position: 委員長
     nickname: みなりん
@@ -21,7 +21,7 @@ members:
       %{hometown}出身の%{age}歳。頼れる%{position}。
       ＼えーっ！／
       アイドルがぶち大好きな%{nickname}こと%{name}です。
-  2:
+  - id: 2
     name: 重松 佑佳
     position: 副委員長
     nickname: しげちー
@@ -34,7 +34,7 @@ members:
       博多からきたダイヤモンドの原石。みーんなの愛で輝かせてほしいと。
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
-  3:
+  - id: 3
     name: 奥村 野乃花
     nickname: ののた
     birthday: 2001-1-4
@@ -47,7 +47,7 @@ members:
        ＼どーん／
       %{hometown}出身の最年少%{age}歳。
       %{nickname}こと%{name}です。
-  4:
+  - id: 4
     name: 木下 ひより
     nickname: ひよりん
     birthday: 1997-12-9
@@ -59,7 +59,7 @@ members:
       あなたのハートをチューニング。恋のスリーコードを奏でます。
       %{hometown}出身%{age}歳。
       %{name}です。%{nickname}って呼んでください。
-  5:
+  - id: 5
     name: 陶山 恵実里
     nickname: えみりぃ
     birthday: 1999-5-26
@@ -71,7 +71,8 @@ members:
       どこまでいってもマイペースなアイドルルーキー。あなたの新人王を狙います。
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
-  6:
+  - id: 6
+    name: 陶山 恵実里
     name: 中村 朱里
     nickname: あかりん
     birthday: 1998-1-30
@@ -84,7 +85,7 @@ members:
       みーんなの笑顔の隣にいたい。
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
-  7:
+  - id: 7
     name: 西 七海
     nickname: ななぴ
     birthday: 1996-10-9
@@ -96,7 +97,7 @@ members:
       わたしはあまーいチョコレート。あなたの熱気で溶けちゃうの。
       虹コン色黒担当、%{hometown}出身%{age}歳
       %{nickname}こと%{name}です。
-  8:
+  - id: 8
     name: 根本 凪
     nickname: ねも
     birthday: 1999-3-15
@@ -110,7 +111,7 @@ members:
       ＼ぺー！／
       %{hometown}出身世間知らずの%{age}歳。
       %{nickname}こと%{name}です。
-  9:
+  - id: 9
     name: 的場 華鈴
     nickname: かりんさま
     birthday: 2000-12-30
@@ -122,7 +123,7 @@ members:
       %{hometown}からやってきた最年少の%{age}歳。%{nickname}ってよんでもいいよ。
       ＼%{nickname}ー！／
       ダンスと梅干しが大好きな%{name}です。
-  10:
+  - id: 10
     name: 吉村 菜々
     nickname: なぁな
     birthday: 1999-8-2
@@ -134,7 +135,7 @@ members:
       あの空に浮かぶ虹のように、みなさんになないろをお届けします。
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
-  11:
+  - id: 11
     name: 鶴見 萌
     nickname: もえ
     birthday: 1996-12-5

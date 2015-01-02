@@ -3,7 +3,13 @@ module Nizicon
     attr_accessor :id, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id
 
     def self.all
-      Mapping.data['members'].map { |(id, data)| new(data.merge(id: id)) }
+      Mapping.data['members'].map { |data| new(data) }
+    end
+
+    def self.find(id)
+      if data = Mapping.data['members'].detect { |data| data['id'] == id }
+        new(data.merge(id: id))
+      end
     end
 
     def initialize(data = {})
