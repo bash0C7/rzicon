@@ -72,7 +72,6 @@ members:
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
   - id: 6
-    name: 陶山 恵実里
     name: 中村 朱里
     nickname: あかりん
     birthday: 1998-1-30
