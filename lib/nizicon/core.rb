@@ -1,36 +1,37 @@
 module Nizicon
-  require "singleton"
-
-  # generic methods
-  class Core
-    include Singleton
-
+  module Core
     def name
-      '虹のコンキスタドール'
+      data['name']
     end
 
     def from
-      'つくドル！プロジェクト'
-    end
-
-    def members
-      Members.instance
+      data['from']
     end
 
     def twitter_id
-      '@2zicon'
+      data['twitter_id']
     end
 
     def blog_uri
-      URI.parse("http://ameblo.jp/2zicon/")
+      data['blog_uri']
     end
 
     def website_uri
-      URI.parse("http://pixiv-pro.com/2zicon/")
+      data['website_uri']
     end
 
     def showroom_uri
-      URI.parse("https://www.showroom-live.com/2zicon")
+      data['showroom_uri']
+    end
+
+    def members
+      Nizicon::Member.all
+    end
+
+    private
+
+    def data
+      @data ||= Mapping.data['core']
     end
   end
 end
