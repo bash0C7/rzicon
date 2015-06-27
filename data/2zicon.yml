@@ -8,6 +8,7 @@ core:
 
 members:
   - id: 1
+    reguler_member: true
     name: 長田 美成
     position: 委員長
     nickname: みなりん
@@ -22,6 +23,7 @@ members:
       アイドルがぶち大好きな#{nickname}こと#{name}です！
   - id: 2
     name: 重松 佑佳
+    reguler_member: true
     position: 副委員長
     nickname: しげちー
     birthday: 1996-5-20
@@ -34,6 +36,7 @@ members:
       みんなの愛で輝かせてほしいと！
       #{hometown}出身の#{age}歳 #{nickname}こと#{name}です！
   - id: 3
+    reguler_member: true
     name: 奥村 野乃花
     nickname: ののた
     birthday: 2001-1-4
@@ -47,6 +50,7 @@ members:
       %{hometown}出身の最年少%{age}歳。
       %{nickname}こと%{name}です。
   - id: 4
+    reguler_member: true
     name: 木下 ひより
     nickname: ひよりん
     birthday: 1997-12-9
@@ -59,6 +63,7 @@ members:
       %{hometown}出身%{age}歳。
       %{name}です。%{nickname}って呼んでください。
   - id: 5
+    reguler_member: true
     name: 陶山 恵実里
     nickname: えみりぃ
     birthday: 1999-5-26
@@ -71,6 +76,7 @@ members:
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
   - id: 6
+    reguler_member: true
     name: 中村 朱里
     nickname: あかりん
     birthday: 1998-1-30
@@ -84,6 +90,7 @@ members:
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
   - id: 7
+    reguler_member: true
     name: 西 七海
     nickname: ななぴ
     birthday: 1996-10-9
@@ -96,6 +103,7 @@ members:
       虹コン色黒担当、%{hometown}出身%{age}歳
       %{nickname}こと%{name}です。
   - id: 8
+    reguler_member: true
     name: 根本 凪
     nickname: ねも
     birthday: 1999-3-15
@@ -110,6 +118,7 @@ members:
       %{hometown}出身世間知らずの%{age}歳。
       %{nickname}こと%{name}です。
   - id: 9
+    reguler_member: true
     name: 的場 華鈴
     nickname: かりんさま
     birthday: 2000-12-30
@@ -122,6 +131,7 @@ members:
       ＼%{nickname}ー！／
       ダンスと梅干しが大好きな%{name}です。
   - id: 10
+    reguler_member: true
     name: 吉村 菜々
     nickname: なぁな
     birthday: 1999-8-2
@@ -134,6 +144,7 @@ members:
       %{hometown}出身の%{age}歳。
       %{nickname}こと%{name}です。
   - id: 11
+    reguler_member: true
     name: 鶴見 萌
     nickname: もえ
     birthday: 1996-12-5

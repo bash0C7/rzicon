@@ -1,6 +1,8 @@
 module Nizicon
   class Member
-    attr_accessor :id, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id
+    attr_accessor :id, :reguler_member, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id
+
+    alias_method :reguler_member?, :reguler_member
 
     def self.all
       Mapping.data['members'].map { |data| new(data) }
@@ -27,7 +29,7 @@ module Nizicon
 
     def attributes
       %i(
-        id name position nickname birthday hometown introduction
+        id reguler_member name position nickname birthday hometown introduction
         twitter_id blog_uri head_shot_uri pixiv_id age
       ).each_with_object({}) do |key, memo|
         memo[key] = public_send(key)

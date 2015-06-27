@@ -30,6 +30,7 @@ Nizicon.members.sample
  @name="根本 凪",
  @nickname="ねも",
  @pixiv_id=11797412,
+ @reguler_member=true,
  @twitter_id="@nemoto_nagi">
 ```
 
