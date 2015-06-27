@@ -60,9 +60,10 @@ module Nizicon
       def twitter_id; '@nagata_minari'; end
       def introduction
         [
-            "今日はみなりんマジックでみんなを笑顔にしちゃるけん！",
-            "#{hometown}出身の#{age}歳、頼れる#{position}！",
-            "アイドルがぶち大好きな#{nickname}こと#{name}です！",
+            "今日はみなりんマジックでみんなを笑顔にしちゃるけん。",
+            "#{hometown}出身の#{age}歳。頼れる#{position}。",
+            "＼えーっ！／",
+            "アイドルがぶち大好きな#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -87,9 +88,9 @@ module Nizicon
       def twitter_id; '@shigematsu_yuka'; end
       def introduction
         [
-            "博多から来たダイアモンドの原石！",
-            "みんなの愛で輝かせてほしいと！",
-            "#{hometown}出身の#{age}歳 #{nickname}こと#{name}です！",
+            "博多からきたダイヤモンドの原石。みーんなの愛で輝かせてほしいと。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -113,9 +114,10 @@ module Nizicon
       def twitter_id; '@okumura_nonoka'; end
       def introduction
         [
-            "アイドルオタクの進化系！",
-            "毎日がビックバン！せーの、どーん！",
-            "#{hometown}出身の最年少#{age}歳、#{nickname}こと#{name}です！",
+            "アイドルオタクの進化系。毎日がビッグバン。せーの！",
+            " ＼どーん／",
+            "#{hometown}出身の最年少#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -139,9 +141,9 @@ module Nizicon
       def twitter_id; '@kinosita_hiyori'; end
       def introduction
         [
-            "あなたのハートをチューニング 恋のスリーコードを奏でます！",
-            "#{hometown}出身#{age}歳 #{name}です！",
-            "#{nickname}って呼んでください！",
+            "あなたのハートをチューニング。恋のスリーコードを奏でます。",
+            "#{hometown}出身#{age}歳。",
+            "#{name}です。#{nickname}って呼んでください。",
         ]
       end
       def blog_uri
@@ -165,9 +167,9 @@ module Nizicon
       def twitter_id; '@suyama_emiri'; end
       def introduction
         [
-            "どこまでいってもマイペースなアイドルルーキー",
-            "あなたの新人王を狙います！",
-            "#{hometown}出身の#{age}歳#{nickname}こと#{name}です！",
+            "どこまでいってもマイペースなアイドルルーキー。あなたの新人王を狙います。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -191,9 +193,10 @@ module Nizicon
       def twitter_id; '@nakamura_akari'; end
       def introduction
         [
-            "せーの　リンリンリン！　あかりんりん！",
-            "みんなの笑顔の隣にいたい",
-            "#{hometown}出身の#{age}歳 #{nickname}こと#{name}です！",
+            "＼りんりんりーんあかりんりーん／",
+            "みーんなの笑顔の隣にいたい。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -217,9 +220,9 @@ module Nizicon
       def twitter_id; '@nishi_nanami'; end
       def introduction
         [
-            "私はあま～いチョコレート",
-            "あなたの熱気で溶けちゃうの！",
-            "虹コン色黒担当 #{hometown}出身#{age}歳 #{nickname}こと#{name}です！",
+            "わたしはあまーいチョコレート。あなたの熱気で溶けちゃうの。",
+            "虹コン色黒担当、#{hometown}出身#{age}歳",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -245,8 +248,9 @@ module Nizicon
       def introduction
         [
             "みんなのハートを#{nickname}色に染めちゃってもよかっぺか？",
-            "#{hometown}出身 世間知らずの#{age}歳！",
-            "#{nickname}こと#{name}です！",
+            "＼ぺー！／",
+            "#{hometown}出身世間知らずの#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -270,9 +274,9 @@ module Nizicon
       def twitter_id; '@matoba_karin'; end
       def introduction
         [
-            "#{hometown}からやってきた最年少の#{age}歳！",
-            "#{nickname}ってよんでもいいよ",
-            "ダンスと梅干しが大好きな#{name}です！",
+            "#{hometown}からやってきた最年少の#{age}歳。#{nickname}ってよんでもいいよ。",
+            "＼#{nickname}ー！／",
+            "ダンスと梅干しが大好きな#{name}です。",
         ]
       end
       def blog_uri
@@ -296,9 +300,9 @@ module Nizicon
       def twitter_id; '@yoshimura_nana'; end
       def introduction
         [
-            "あの空に浮かぶ虹のように",
-            "みなさんに七色をお届けします！",
-            "#{hometown}出身の#{age}歳 #{nickname}こと#{name}です！",
+            "あの空に浮かぶ虹のように、みなさんになないろをお届けします。",
+            "#{hometown}出身の#{age}歳。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
@@ -324,9 +328,11 @@ module Nizicon
       def twitter_id; '@tsurumi_moe'; end
       def introduction
         [
-            "世界に'萌え'を発信！",
-            "#{hometown}出身#{age}歳、髪の毛ふわふわ天然ガール！",
-            "#{nickname}こと#{name}です！",
+            "世界に萌えを発信！",
+            "＼受信！／",
+            "#{hometown}出身#{age}歳。",
+            "髪の毛ふわふわ天然ガール。",
+            "#{nickname}こと#{name}です。",
         ]
       end
       def blog_uri
