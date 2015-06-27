@@ -1,0 +1,6 @@
+dependencies:
+  pre:
+    - case $CIRCLE_NODE_INDEX in 0) rvm use 2.2.0 --default ;; 1) rvm use jruby-1.7.0 --default ;; 2) rvm use rbx-2.5.2 --default ;; esac
+test:
+  override:
+    - ruby -v ; bundle exec rspec: {parallel: true}
