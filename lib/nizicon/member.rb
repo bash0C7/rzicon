@@ -1,6 +1,6 @@
 module Nizicon
   class Member
-    attr_accessor :id, :regular_member, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id
+    attr_accessor :id, :regular_member, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id, :graduation_date
 
     alias_method :regular_member?, :regular_member
 
