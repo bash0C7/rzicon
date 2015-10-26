@@ -168,7 +168,7 @@ members:
     blog_uri: http://lineblog.me/2zicon/archives/cat_1104741.html
     head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/otsuka-1.jpg
     introduction: |-
-- id: 13
+  - id: 13
     regular_member: true
     name: 大和 明桜
     nickname: あおちゃん
@@ -178,7 +178,7 @@ members:
     blog_uri: http://lineblog.me/2zicon/archives/cat_1104742.html
     head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/yamato-1.jpg
     introduction: |-
-- id: 14
+  - id: 14
     regular_member: false
     name: 金子 みずき
     nickname:
@@ -188,7 +188,7 @@ members:
     blog_uri:
     head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/kaneko-1.jpg
     introduction: |-
-- id: 15
+  - id: 15
     regular_member: false
     name: 甲斐 莉乃
     nickname:
@@ -198,7 +198,7 @@ members:
     blog_uri:
     head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/kai-1.jpg
     introduction: |-
-- id: 13
+  - id: 16
     regular_member: false
     name: 伊藤 有香
     nickname:

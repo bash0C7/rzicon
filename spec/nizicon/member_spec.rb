@@ -10,7 +10,7 @@ describe Nizicon::Member do
       end
 
       it 'returns 11 members' do
-        expect(subject.size).to eq(11)
+        expect(subject.size).to eq(16)
       end
     end
 
