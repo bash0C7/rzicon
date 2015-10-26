@@ -120,7 +120,7 @@ members:
   - id: 9
     regular_member: true
     name: 的場 華鈴
-    nickname: かりんさま
+    nickname: かりん
     birthday: 2000-12-30
     hometown: 埼玉県
     twitter_id: '@matoba_karin'
@@ -146,7 +146,7 @@ members:
   - id: 11
     regular_member: true
     name: 鶴見 萌
-    nickname: もえ
+    nickname: もえちゃん
     birthday: 1996-12-5
     hometown: 東京都
     twitter_id: '@tsurumi_moe'
@@ -177,4 +177,34 @@ members:
     twitter_id: '@yamato__ao'
     blog_uri: http://lineblog.me/2zicon/archives/cat_1104742.html
     head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/yamato-1.jpg
+    introduction: |-
+- id: 14
+    regular_member: false
+    name: 金子 みずき
+    nickname:
+    birthday: 1998-11-28
+    hometown: 静岡県
+    twitter_id:
+    blog_uri:
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/kaneko-1.jpg
+    introduction: |-
+- id: 15
+    regular_member: false
+    name: 甲斐 莉乃
+    nickname:
+    birthday: 1998-3-30
+    hometown: 神奈川県
+    twitter_id: '@kai_marino'
+    blog_uri:
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/kai-1.jpg
+    introduction: |-
+- id: 13
+    regular_member: false
+    name: 伊藤 有香
+    nickname:
+    birthday: 1998-1-12
+    hometown: 東京都
+    twitter_id: '@yitou__yuka'
+    blog_uri:
+    head_shot_uri: http://pixiv-pro.com/2zicon/wp-content/themes/2zicon_v2015/img/pf/itou-1.jpg
     introduction: |-
