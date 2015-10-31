@@ -9,8 +9,8 @@ describe Nizicon::Member do
         is_expected.to all(be_a(described_class))
       end
 
-      it 'returns 11 members' do
-        expect(subject.size).to eq(11)
+      it 'returns 17 members' do
+        expect(subject.size).to eq(17)
       end
     end
 
