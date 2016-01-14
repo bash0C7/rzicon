@@ -8,7 +8,7 @@ describe Nizicon do
   describe 'Classmethods' do
     describe '.name' do
       subject { described_class.name }
-      it { expect(described_class.name).to eq('虹のコンキスタドール') }
+      it { is_expected.to eq('虹のコンキスタドール') }
     end
 
     describe '.from' do

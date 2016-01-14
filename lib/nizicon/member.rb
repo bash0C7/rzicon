@@ -1,22 +1,17 @@
+require 'masterman'
+
 module Nizicon
   class Member
-    attr_accessor :id, :regular_member, :name, :position, :nickname, :birthday, :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id, :graduation_date
+    include Masterman
 
-    alias_method :regular_member?, :regular_member
-
-    def self.all
-      Mapping.data['members'].map { |data| new(data) }
+    masterman do
+      mount path: File.expand_path('../../../data/members.yml', __FILE__)
+      attr_reader :id, :regular_member, :name, :position, :nickname, :birthday,
+        :hometown, :twitter_id, :blog_uri, :head_shot_uri, :introduction, :pixiv_id, :graduation_date
     end
 
-    def self.find(id)
-      if data = Mapping.data['members'].detect { |data| data['id'] == id }
-        new(data.merge(id: id))
-      end
-    end
-
-    def initialize(data = {})
-      data.each { |key, value| public_send("#{key}=", value) }
-      self.introduction = sprintf(@introduction, attributes) if @introduction
+    def regular_member?
+      regular_member
     end
 
     def age(current = Date.today)
@@ -25,15 +20,6 @@ module Nizicon
 
     def introduction
       (@introduction || '').split("\n")
-    end
-
-    def attributes
-      %i(
-        id regular_member name position nickname birthday hometown introduction
-        twitter_id blog_uri head_shot_uri pixiv_id age
-      ).each_with_object({}) do |key, memo|
-        memo[key] = public_send(key)
-      end
     end
   end
 end
