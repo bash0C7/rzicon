@@ -35,5 +35,13 @@ describe Nizicon::Member do
                   .and be_any { |line| line =~ /#{instance.nickname}/ }
       end
     end
+
+    describe '#regular_member?' do
+      subject { instance.regular_member }
+
+      it 'aliases regular_member?' do
+        is_expected.to eq(instance.regular_member?)
+      end
+    end
   end
 end
